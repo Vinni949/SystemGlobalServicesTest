@@ -9,7 +9,6 @@
             CurrentPage = currentPage;
             this.AddRange(items);
             TotalCount = (int)(Math.Ceiling(totalItems / (double)(pageSize)));
-
         }
 
         public bool HasNextPage() => CurrentPage < TotalCount;
